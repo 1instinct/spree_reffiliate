@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.test_files   = s.files.grep(%r{^spec/})
   s.require_path = 'lib'
 
-  spree_version = '>= 3.2.0', '<= 4.2.5'
+  spree_version = '>= 3.2.0', '<= 4.3.3'
 
   s.add_dependency 'spree_core', spree_version
 
@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec-rails', '~> 3.5'
   s.add_development_dependency 'selenium-webdriver', '>= 2.41'
   s.add_development_dependency 'simplecov', '~> 0.9.0'
-  s.add_development_dependency 'sqlite3', '~> 1.3.10'
+  s.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.10'
   s.add_development_dependency 'mysql2'
   s.add_development_dependency 'pg'
   s.add_development_dependency 'shoulda-matchers'
