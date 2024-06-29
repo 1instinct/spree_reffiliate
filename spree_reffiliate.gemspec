@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_reffiliate'
   s.version     = SpreeReffiliate.version
-  s.author      = 'Alejandro AR'
-  s.email       = 'abarcadabra@gmail.com'
+  s.author      = 'Material Instinct'
+  s.email       = 'hello@instinct.is'
   s.summary     = 'Spree Affiliate and Referrals extension'
   s.description = 'Configurable affiliates and referrals features for Spree'
   s.homepage    = 'https://github.com/vinsol-spree-contrib/spree_reffiliate'
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.test_files   = s.files.grep(%r{^spec/})
   s.require_path = 'lib'
 
-  spree_version = '>= 3.2.0', '<= 4.2.5'
+  spree_version = '>= 3.2.0', '<= 4.3.0.alpha'
 
   s.add_dependency 'spree_core', spree_version
 
